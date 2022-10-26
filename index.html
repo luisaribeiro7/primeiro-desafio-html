@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Página Principal</title>
+  </head>
+  <body>
+    <font color="blue"><h1>HTML na prática</h1> </font>
+    <hr />
+    <h2 id="indice">Índice</h2>
+    <ul>
+      <li>
+        <h3><a href="#Estrutura">Estrutura Básica HTML</a></h3>
+      </li>
+      <ol>
+        <li>
+          <h4><a href="#html">< html>< /html></a></h4>
+        </li>
+        <li>
+          <h4><a href="#head">< head>< /head></a></h4>
+        </li>
+        <li>
+          <h4><a href="#body">< body>< /body></a></h4>
+        </li>
+      </ol>
+
+      <li>
+        <h3><a href="#tags">TAGS </a></h3>
+      </li>
+      <li>
+        <h3><a href="#atributos">Atributos TAGs</a></h3>
+      </li>
+      <li>
+        <h3><a href="#tag-texto">TAGs de Texto</a></h3>
+      </li>
+      <ul>
+        <li>
+          <h4><a href="#tag-h1">TAG < h1> - < h6></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-p">TAG < p></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-strong">TAG < strong></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-i">TAG < i></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-u">TAG < u></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-mark">TAG < mark></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-blockquote">TAG < blockquote></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-sup">TAG < sup></a></h4>
+        </li>
+        <li>
+          <h4><a href="#tag-sub">TAG < sub></a></h4>
+        </li>
+      </ul>
+      <li>
+        <h3><a href="#referencias"> Referências</a></h3>
+      </li>
+    </ul>
+    <br />
+    <hr />
+    <h3 id="Estrutura">
+      Estrutura Básica
+      <abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr>
+    </h3>
+    <small><a href="#indice"><- Voltar</a></small>
+    <p>
+      Elementos básicos são o que constituem a base de todo documento HTML. Se
+      vê esses elementos no código fonte de todas as páginas da web, logo em
+      seguida da declaração de doctype, que está na primeira linha da página.
+      Dessa forma, para que um documento seja interpretado pelo navegador, é
+      necessário que o arquivo tenha a extensão <mark>.html </mark> e a partir
+      disso, poderá ser exibido por qualquer navegador web.
+    </p>
+    <p>A estrutura básica HTML consiste em basicamente 3 partes:</p>
+    <h4 id="html"><u>< html>< /html></u></h4>
+    <small><a href="#Estrutura"><- Estrutura Básica HTML</a></small>
+    <p>
+      Indica que tudo que está dentro dessa tag é HTML.O elemento HTML
+      representa a raiz de um documento HTML, portanto, também é chamado de
+      elemento raiz
+    </p>
+    <h4 id="head">
+      <u>< head>< /head></u>
+    </h4>
+    <small><a href="#Estrutura"><- Estrutura Básica HTML</a></small>
+    <p>
+      A tag <strong><i>< head> </i></strong> contém coisas que serão carregadas
+      antes da página ser exibido para o usuário. O elemento HTML contém
+      informações legíveis por máquina ( metadados ) sobre o documento,
+      incluindo seu título e links para scripts e folhas de estilos.
+    </p>
+    <h4 id="body"><u>< body>< /body></u></h4>
+    <small><a href="#Estrutura"><- Estrutura Básica HTML</a></small>
+    <p>
+      O elemento <strong><i>< body></i></strong> HTML representa o conteúdo de
+      um documento HTML. Tudo que estiver dentro dessa tag é o que de fato vai
+      aparecer para o usuário.
+    </p>
+    <br />
+    <hr />
+    <h3 id="tags">TAGs</h3>
+    <small><a href="#indice"><- Voltar</a></small>
+    <p>
+      Os elementos HTML ou também chamados de tags HTML, são utilizados para
+      informar ao navegador que tipo de estrutura é essa que está sendo
+      construída, podendo ser títulos, parágrafos, imagens, links, entre outros.
+      As tags são formadas por uma estrutura própria, iniciam com o sinal “menor
+      que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior
+      que”. Podem ser dispostas em tags que precisam de fechamento e tags que
+      fecham sozinhas (self-closing). O fechamento de uma tag será definido com
+      uma barra (/).
+    </p>
+    <br />
+    <hr />
+    <h3 id="atributos">Atributos TAGs</h3>
+    <small><a href="#indice"><- Voltar</a></small>
+    <p>
+      Atributos HTML são palavras especiais usadas dentro da tag de abertura
+      para controlar o comportamento do elemento. Os atributos HTML são um
+      modificador de um tipo de elemento HTML. Com eles podemos identificar
+      melhor um elemento, informar qual arquivo aquela tag deve utilizar,
+      indicar o tipo de um campo de texto, etc…
+    </p>
+    <br />
+    <hr />
+    <h3 id="tag-texto">TAGs de Texto</h3>
+    <small><a href="#indice"><- Voltar</a></small>
+    <p>
+      As tags de texto definem textos, estilos de fonte, parágrafos, spans,
+      quebras de linhas, etc. Algumas delas são:
+    </p>
+    <br />
+    <h4 id="tag-h1">TAG < h1> - < h6></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      Os elementos HTML < h1>–< h6> representam níveis de título de seção. < h1>
+      é o nível de seção mais alto e < h6> é o mais baixo. Exemplo:
+    </p>
+
+    <h1>Cabeçalho nível 1</h1>
+    <h2>Cabeçalho nível 2</h2>
+    <h3>Cabeçalho nível 3</h3>
+    <h4>Cabeçalho nível 4</h4>
+    <h5>Cabeçalho nível 5</h5>
+    <h6>Cabeçalho nível 6</h6>
+    <br />
+    <h4 id="tag-p">TAG < p></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      O elemento HTML < p> representa um parágrafo. Em letras visuais, separados
+      por letras, como os blocos identificados em branco. Já em HTML, os
+      parágrafos são para agrupadores de conteúdos e relacionados de qualquer
+      tipo, como imagens de um campo.
+    </p>
+    <br />
+    <h4 id="tag-strong">TAG < strong></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      A < strong>tag é usada para definir o texto com forte importância.
+      <strong> O conteúdo dentro é normalmente exibido em negrito </strong>.
+    </p>
+    <br />
+    <h4 id="tag-i">TAG < i></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      O elemento HTML < i> representa uma parte do texto que é da restante por
+      algum motivo, por exemplo, termos técnicos, expressões destacadas de
+      outros idiomas ou pensamentos de personagens fictícios.
+      <i>Normalmente, é apresentado com o uso do tipo "itálico" </i>.
+    </p>
+    <br />
+    <h4 id="tag-u">TAG < u></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      O element0< u> <u>"Underline Element"</u> ou <u>sublinhado</u> é utilizado
+      para sublinhar um espaço definido de um texto.
+    </p>
+    <br />
+    <h4 id="tag-mark">TAG < mark></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      A < mark> tag define o texto que deve ser
+      <mark>marcado ou destacado.</mark>
+    </p>
+    <br />
+    <h4 id="tag-blockquote">TAG < blockquote></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      O Elemento HTML < blockquote> (ou Elemento HTML de citação de bloco)
+      indica que o texto incluído é uma longa citação. Normalmente, este é
+      processado visualmente pelo recuo.
+    </p>
+    <p>Exemplo:</p>
+
+    <blockquote>
+      <p>Esta é uma citação tirada da <del>Mozilla Developer Center.</del></p>
+    </blockquote>
+    <br />
+    <h4 id="tag-sup">TAG < sup></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      A < sup> tag define o texto sobrescrito. O texto sobrescrito aparece meio
+      caractere acima da linha normal e, às vezes, é renderizado em uma fonte
+      menor. O texto sobrescrito pode ser usado para notas de rodapé, exemplo
+      <sup>[*].</sup> <br />
+      <br />
+      *Exemplo de uso da tag < sup>.
+    </p>
+    <br />
+    <h4 id="tag-sub">TAG < sub></h4>
+    <small><a href="#tag-texto"><- TAGs de Texto</a></small>
+    <p>
+      A < sub> tag define o texto subscrito. O texto subscrito aparece meio
+      caractere abaixo da linha normal e às vezes é renderizado em uma fonte
+      menor. O texto subscrito pode ser usado para fórmulas químicas, como H
+      <sub><strong>2</strong></sub
+      >O.
+    </p>
+    <hr />
+    <h3 id="referencias">Referências</h3>
+    <small><a href="#indice"><- Voltar</a></small> <br /><br />
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element</a
+    >
+    <br />
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/body"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/body</a
+    ><br />
+    <a
+      href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica#:~:text=Os%20elementos%20HTML%20ou%20tamb%C3%A9m,imagens%2C%20links%2C%20entre%20outros"
+      >https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica#:~:text=Os%20elementos%20HTML%20ou%20tamb%C3%A9m,imagens%2C%20links%2C%20entre%20outros</a
+    >
+    <br />
+    <a
+      href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos#:~:text=Atributos%20HTML%20s%C3%A3o%20palavras%20especiais,um%20campo%20de%20texto%2C%20etc%E2%80%A6"
+      >https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos#:~:text=Atributos%20HTML%20s%C3%A3o%20palavras%20especiais,um%20campo%20de%20texto%2C%20etc%E2%80%A6</a
+    >
+    <br />
+    <a
+      href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/Heading_Elements</a
+    ><br />
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/p</a
+    ><br />
+    <a
+      href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote</a
+    ><br />
+    <a href="https://www.w3schools.com/tags/tag_strong.asp"
+      >https://www.w3schools.com/tags/tag_strong.asp</a
+    ><br />
+    <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/i"
+      >https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/i</a
+    ><br />
+    <a href="https://www.portaldefinancas.com/html/u.html"
+      >https://www.portaldefinancas.com/html/u.html</a
+    ><br />
+    <a href="https://www.w3schools.com/tags/tag_sup.asp"
+      >https://www.w3schools.com/tags/tag_sup.asp</a
+    ><br />
+    <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/"
+      >https://www.homehost.com.br/blog/tutoriais/tags-html/</a
+    >
+    <br />
+    <a href="https://www.youtube.com/watch?v=ImBKxFowqqo"
+      >https://www.youtube.com/watch?v=ImBKxFowqqo</a
+    ><br />
+  </body>
+</html>
